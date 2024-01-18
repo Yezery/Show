@@ -1,0 +1,753 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"); */
+.blink-effect {
+  -webkit-animation-duration: 100ms;
+  animation-duration: 100ms;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: hover-blink-menu;
+  animation-name: hover-blink-menu;
+}
+@-webkit-keyframes hover-blink-menu {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes hover-blink-menu {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@font-face {
+  font-family: "Grot10";
+  src: url("../font/Grot10-MediumWEB.woff2") format("woff2"),
+    url("../font/Grot10-MediumWEB.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Grot10";
+  src: url("../font/Grot10-BoldWEB.woff2") format("woff2"),
+    url("../font/Grot10-BoldWEB.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Grot10";
+  src: url("../font/Grot10-MediumWEB.woff2") format("woff2"),
+    url("../font/Grot10-MediumWEB.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Grot10";
+  src: url("../font/Grot10-BoldWEB.woff2") format("woff2"),
+    url("../font/Grot10-BoldWEB.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+.blink-effect {
+  -webkit-animation-duration: 100ms;
+  animation-duration: 100ms;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: hover-blink-menu;
+  animation-name: hover-blink-menu;
+}
+@keyframes hover-blink-menu {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@font-face {
+  font-family: "Grot10";
+  src: url("../font/Grot10-MediumWEB.woff2") format("woff2"),
+    url("../font/Grot10-MediumWEB.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Grot10";
+  src: url("../font/Grot10-BoldWEB.woff2") format("woff2"),
+    url("../font/Grot10-BoldWEB.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+html {
+  color: #000;
+  background: #fff;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+fieldset,
+img {
+  border: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ol,
+ul {
+  list-style: none;
+}
+caption,
+th {
+  text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+q:before,
+q:after {
+  content: "";
+}
+abbr,
+acronym {
+  border: 0;
+  font-variant: normal;
+}
+sup {
+  vertical-align: text-top;
+}
+sub {
+  vertical-align: text-bottom;
+}
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+input,
+textarea,
+select {
+  *font-size: 100%;
+}
+legend {
+  color: #000;
+}
+#yui3-css-stamp.cssreset {
+  display: none;
+}
+.blink-effect {
+  -webkit-animation-duration: 100ms;
+  animation-duration: 100ms;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: hover-blink-menu;
+  animation-name: hover-blink-menu;
+}
+@keyframes hover-blink-menu {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+::-moz-selection {
+  color: #fff;
+  background-color: #2f1dff;
+}
+::selection {
+  color: #fff;
+  background-color: #2f1dff;
+}
+::-moz-selection {
+  color: #fff;
+  background-color: #2f1dff;
+}
+::-webkit-selection {
+  color: #fff;
+  background-color: #2f1dff;
+}
+::-ms-selection {
+  color: #fff;
+  background-color: #2f1dff;
+}
+html {
+  background: #fff;
+  color: #2f1dff;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+body {
+  -webkit-tap-highlight-color: transparent;
+  font-family: Grot10, "Helvetica Neue", Helvetica, Arial, Verdana,
+    "Noto Sans JP", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "Hiragino Kaku Gothic Pro",
+    "ãƒ¡ã‚¤ãƒªã‚ª", Meiryo, Osaka, "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "MS PGothic",
+    sans-serif;
+  line-height: 1em;
+}
+p {
+  margin-bottom: 1em;
+}
+a {
+  outline: none;
+}
+a {
+  text-decoration: none;
+  color: #2f1dff;
+}
+a:hover {
+  -webkit-animation-duration: 100ms;
+  animation-duration: 100ms;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: hover-blink;
+  animation-name: hover-blink;
+}
+@-webkit-keyframes hover-blink {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes hover-blink {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+input:focus {
+  outline: none;
+}
+sup {
+  vertical-align: baseline;
+}
+menu {
+  margin: 0;
+  padding: 0;
+}
+.jp {
+  font-size: 0.95em;
+  letter-spacing: 0.02em;
+  -webkit-font-feature-settings: "palt";
+  font-feature-settings: "palt";
+}
+body {
+  font-size: 10px;
+  letter-spacing: 0.1em;
+}
+p {
+  line-height: 1.5em;
+}
+h1 {
+  font-size: 24px;
+}
+h2 {
+  font-size: 18px;
+}
+h3 {
+  font-size: 14px;
+}
+menu {
+  display: none;
+}
+header {
+  display: block;
+}
+header #menu {
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  display: block;
+  width: 106px;
+  height: 99px;
+  background: url("../img/menu.svg") no-repeat;
+}
+header .site-title {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 30px;
+  left: 120px;
+  line-height: 19px;
+}
+header .site-title .site-main-title {
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  display: inline-block;
+  width: 174px;
+  height: 19px;
+  background-image: url("../img/logo_horizon.svg");
+  transform: scale(1.02);
+}
+header .site-title .site-sub-title {
+  margin-left: 30px;
+  display: none;
+}
+footer {
+  display: block;
+  width: auto;
+  height: 25px;
+  position: relative;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 160px;
+  padding-bottom: 40px;
+  font-size: 24px;
+}
+footer #links a:hover {
+  border-bottom: 1px solid #2f1dff;
+  padding-bottom: 5px;
+}
+footer .site-title {
+  display: none;
+}
+footer #copyright {
+  position: absolute;
+  left: 0;
+}
+footer #back-to-top {
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  position: absolute;
+  top: -9px;
+  right: 0;
+  width: 26px;
+  height: 27px;
+  background-image: url("../img/arrow.svg");
+  transform: rotate(90deg);
+}
+html#works footer #links a:nth-child(1),
+html#detail footer #links a:nth-child(2),
+html#about footer #links a:nth-child(3) {
+  border-bottom: 1px solid #2f1dff;
+  padding-bottom: 5px;
+}
+html#works body {
+  width: 100%;
+  overflow: hidden;
+}
+html#works footer {
+  visibility: hidden;
+}
+html#works main {
+  visibility: hidden;
+  position: relative;
+  width: auto;
+  margin-top: 140px;
+}
+html#works main .image {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+html#works main .image img {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+}
+html#detail.list-mode body {
+  width: 100%;
+  height: 100%;
+}
+html#detail.list-mode main {
+  visibility: hidden;
+  position: relative;
+  width: auto;
+  margin-top: 70px;
+  margin-left: 120px;
+  margin-right: 30px;
+}
+html#detail.list-mode main #slideshow {
+  display: none;
+}
+html#detail.list-mode main .image {
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+html#detail.list-mode main .image img {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+}
+html#detail.list-mode footer {
+  visibility: hidden;
+}
+html#detail.list-mode #work-meta {
+  width: calc(100% - 120px * 2);
+  text-align: center;
+  margin-top: 114px;
+  margin-left: 120px;
+}
+html#detail.list-mode #work-meta .work-client {
+  font-size: 14px;
+  line-height: 1em;
+}
+html#detail.list-mode #work-meta .work-title {
+  font-size: 60px;
+  line-height: 1em;
+  margin-top: 15px;
+  letter-spacing: -0.005em;
+}
+html#detail.list-mode #work-meta .work-year {
+  font-size: 12px;
+  line-height: 1em;
+  margin-top: 17px;
+}
+html#detail.slideshow-mode {
+  overflow: hidden;
+}
+html#detail.slideshow-mode body {
+  overflow: hidden;
+}
+html#detail.slideshow-mode body header {
+  display: none;
+}
+html#detail.slideshow-mode body #work-meta {
+  display: none;
+}
+html#detail.slideshow-mode body main #list {
+  display: none;
+}
+html#detail.slideshow-mode body main #slideshow .close {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 26px;
+  height: 26px;
+  background: url("../img/close.svg") no-repeat;
+  border: 27px solid transparent;
+  background-color: #2f1dff;
+}
+html#detail.slideshow-mode body main #slideshow .close:hover {
+  -webkit-animation-duration: 100ms;
+  animation-duration: 100ms;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: hover-blink-menu;
+  animation-name: hover-blink-menu;
+}
+@keyframes hover-blink-menu {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+html#detail.slideshow-mode body main #slideshow .change-image.left,
+html#detail.slideshow-mode body main #slideshow .change-image.right {
+  position: absolute;
+  z-index: 1;
+  top: 80px;
+  display: block;
+  width: 50%;
+  height: calc(100% - 80px - 85px);
+}
+html#detail.slideshow-mode body main #slideshow .change-image.left::after,
+html#detail.slideshow-mode body main #slideshow .change-image.right::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  margin-top: calc(-27px / 2);
+  display: block;
+  width: 26px;
+  height: 27px;
+  background: url("../img/arrow.svg") no-repeat;
+}
+html#detail.slideshow-mode body main #slideshow .change-image.left {
+  left: 0;
+}
+html#detail.slideshow-mode body main #slideshow .change-image.left:after {
+  left: 30px;
+}
+html#detail.slideshow-mode body main #slideshow .change-image.right {
+  right: 0;
+}
+html#detail.slideshow-mode body main #slideshow .change-image.right:after {
+  right: 30px;
+}
+html#detail.slideshow-mode body main #slideshow .change-image.right:after {
+  transform: rotate(180deg);
+}
+html#detail.slideshow-mode
+  body
+  main
+  #slideshow
+  .change-image.right.mouseover:after {
+  -webkit-animation-duration: 100ms;
+  animation-duration: 100ms;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-name: arrow-anime2;
+  animation-name: arrow-anime2;
+}
+@-webkit-keyframes arrow-anime2 {
+  0% {
+    transform: rotate(180deg) translateX(20px);
+  }
+  100% {
+    transform: rotate(180deg) translateX(0);
+  }
+}
+@keyframes arrow-anime2 {
+  0% {
+    transform: rotate(180deg) translateX(20px);
+  }
+  100% {
+    transform: rotate(180deg) translateX(0);
+  }
+}
+html#detail.slideshow-mode
+  body
+  main
+  #slideshow
+  .change-image.left.mouseover:after {
+  -webkit-animation-duration: 100ms;
+  animation-duration: 100ms;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-name: arrow-anime3;
+  animation-name: arrow-anime3;
+}
+@-webkit-keyframes arrow-anime3 {
+  0% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes arrow-anime3 {
+  0% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+html#detail.slideshow-mode body main #slideshow #slide .images .image {
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+html#detail.slideshow-mode body main #slideshow #slide .images .image img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 0;
+}
+html#detail.slideshow-mode body main #slideshow #slide #indicator {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  bottom: 32px;
+  flex-direction: row;
+  justify-content: center;
+}
+html#detail.slideshow-mode body main #slideshow #slide #indicator .dot {
+  display: block;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+html#detail.slideshow-mode body main #slideshow #slide #indicator .dot:after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin-top: 5px;
+  margin-left: 6px;
+  background: url("../img/dot.svg") no-repeat;
+}
+html#detail.slideshow-mode
+  body
+  main
+  #slideshow
+  #slide
+  #indicator
+  .dot.filled::after {
+  background: url("../img/dot_filled.svg") no-repeat;
+}
+html#detail.slideshow-mode body main #slideshow #slide #indicator .dot:hover {
+  -webkit-animation-duration: 100ms;
+  animation-duration: 100ms;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: hover-blink;
+  animation-name: hover-blink;
+}
+@keyframes hover-blink {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+html#detail.slideshow-mode body footer {
+  display: none;
+}
+html#about body {
+  width: 100%;
+}
+html#about main {
+  position: relative;
+  width: auto;
+  margin-top: 140px;
+  margin-left: 120px;
+  margin-right: 120px;
+  font-size: 24px;
+  line-height: 1.5em;
+}
+html#about main a {
+  border-bottom: 1px solid #2f1dff;
+  display: inline-block;
+  height: 1.36em;
+}
+html#about main a:hover {
+  border-bottom: none;
+}
+html#about main dd.description.jp {
+  margin-top: 1em;
+}
+html#about main dd.clients .client:after {
+  content: " / ";
+}
+html#about main dd.clients .client:last-child:after {
+  content: "";
+}
+html#about main dd.clients .client a {
+  border: none;
+}
+html#about main dd.clients .client a:hover {
+  border-bottom: 1px solid #2f1dff;
+}
+html#about main #gmap {
+  width: 100%;
+  height: 380px;
+  background-color: #eee;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+html#about main dt {
+  margin-top: 3em;
+  font-weight: bold;
+}
+html#about main dd.mail-address::before {
+  content: "- ";
+}
+html#about main dd.address .address-text {
+  display: block;
+  margin-left: 18px;
+  text-indent: -18px;
+}
+html#about main dd.address .address-text:before {
+  content: "- ";
+}
+html#about main dd.address .address-text:before.jp {
+  font-family: "Noto Sans JP", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3",
+    "Hiragino Kaku Gothic Pro", "ãƒ¡ã‚¤ãƒªã‚ª", Meiryo, Osaka,
+    "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "MS PGothic", sans-serif;
+}
+html#about main dd.sns::before {
+  content: "- ";
+}
+html#about main .member span::before {
+  content: " / ";
+}
+html#about main .member span:first-child::before {
+  content: "- ";
+}

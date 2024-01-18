@@ -1,0 +1,592 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+.blink-effect {
+  -webkit-animation-duration: 100ms;
+  animation-duration: 100ms;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: hover-blink-menu;
+  animation-name: hover-blink-menu;
+}
+@-webkit-keyframes hover-blink-menu {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes hover-blink-menu {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@font-face {
+  font-family: "Grot10";
+  src: url("../font/Grot10-MediumWEB.woff2") format("woff2"),
+    url("../font/Grot10-MediumWEB.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Grot10";
+  src: url("../font/Grot10-BoldWEB.woff2") format("woff2"),
+    url("../font/Grot10-BoldWEB.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Grot10";
+  src: url("../font/Grot10-MediumWEB.woff2") format("woff2"),
+    url("../font/Grot10-MediumWEB.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Grot10";
+  src: url("../font/Grot10-BoldWEB.woff2") format("woff2"),
+    url("../font/Grot10-BoldWEB.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+.blink-effect {
+  -webkit-animation-duration: 100ms;
+  animation-duration: 100ms;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: hover-blink-menu;
+  animation-name: hover-blink-menu;
+}
+@keyframes hover-blink-menu {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@font-face {
+  font-family: "Grot10";
+  src: url("../font/Grot10-MediumWEB.woff2") format("woff2"),
+    url("../font/Grot10-MediumWEB.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Grot10";
+  src: url("../font/Grot10-BoldWEB.woff2") format("woff2"),
+    url("../font/Grot10-BoldWEB.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+html {
+  color: #000;
+  background: #fff;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+fieldset,
+img {
+  border: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ol,
+ul {
+  list-style: none;
+}
+caption,
+th {
+  text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+q:before,
+q:after {
+  content: "";
+}
+abbr,
+acronym {
+  border: 0;
+  font-variant: normal;
+}
+sup {
+  vertical-align: text-top;
+}
+sub {
+  vertical-align: text-bottom;
+}
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+input,
+textarea,
+select {
+  *font-size: 100%;
+}
+legend {
+  color: #000;
+}
+#yui3-css-stamp.cssreset {
+  display: none;
+}
+.blink-effect {
+  -webkit-animation-duration: 100ms;
+  animation-duration: 100ms;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: hover-blink-menu;
+  animation-name: hover-blink-menu;
+}
+@keyframes hover-blink-menu {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+::-moz-selection {
+  color: #fff;
+  background-color: #2f1dff;
+}
+::selection {
+  color: #fff;
+  background-color: #2f1dff;
+}
+::-moz-selection {
+  color: #fff;
+  background-color: #2f1dff;
+}
+::-webkit-selection {
+  color: #fff;
+  background-color: #2f1dff;
+}
+::-ms-selection {
+  color: #fff;
+  background-color: #2f1dff;
+}
+html {
+  background: #fff;
+  color: #2f1dff;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+body {
+  -webkit-tap-highlight-color: transparent;
+  font-family: Grot10, "Helvetica Neue", Helvetica, Arial, Verdana,
+    "Noto Sans JP", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "Hiragino Kaku Gothic Pro",
+    "ãƒ¡ã‚¤ãƒªã‚ª", Meiryo, Osaka, "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "MS PGothic",
+    sans-serif;
+  line-height: 1em;
+}
+p {
+  margin-bottom: 1em;
+}
+a {
+  outline: none;
+}
+a {
+  text-decoration: none;
+  color: #2f1dff;
+}
+a:hover {
+  -webkit-animation-duration: 100ms;
+  animation-duration: 100ms;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: hover-blink;
+  animation-name: hover-blink;
+}
+@-webkit-keyframes hover-blink {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes hover-blink {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+input:focus {
+  outline: none;
+}
+sup {
+  vertical-align: baseline;
+}
+menu {
+  margin: 0;
+  padding: 0;
+}
+.jp {
+  font-size: 0.95em;
+  letter-spacing: 0.02em;
+  -webkit-font-feature-settings: "palt";
+  font-feature-settings: "palt";
+}
+body {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+}
+p {
+  line-height: 1.5em;
+}
+h1 {
+  font-size: 26px;
+}
+h2 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 16px;
+}
+menu {
+  display: none;
+}
+header {
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+}
+header #menu {
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  display: block;
+  width: 106px;
+  height: 99px;
+  background: url("../img/menu.svg") no-repeat;
+}
+header .site-title {
+  height: 39px;
+}
+header .site-title .site-main-title {
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  display: inline-block;
+  width: 174px;
+  height: 19px;
+  margin-left: 85px;
+  background-image: url("../img/logo_horizon.svg");
+  transform: scale(1.02);
+}
+header .site-title .site-sub-title {
+  display: none;
+}
+footer {
+  display: block;
+  width: auto;
+  height: 190px;
+  position: relative;
+  font-size: 16px;
+}
+footer .site-title {
+  height: 39px;
+}
+footer .site-title .site-main-title {
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  display: inline-block;
+  width: 174px;
+  height: 19px;
+  margin-left: 85px;
+  background-image: url("../img/logo_horizon.svg");
+  transform: scale(1.02);
+}
+footer .site-title .site-sub-title {
+  display: none;
+}
+footer #copyright,
+footer #links {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+footer #back-to-top {
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-image: url("../img/back_to_top.svg");
+  width: 29px;
+  height: 29px;
+  border-radius: 15.5px;
+}
+html#works footer #links a:nth-child(1),
+html#detail footer #links a:nth-child(2),
+html#about footer #links a:nth-child(3) {
+  border-bottom: 1px solid #2f1dff;
+  padding-bottom: 5px;
+}
+html#works footer {
+  visibility: hidden;
+}
+html#works footer .site-title {
+  display: none;
+}
+html#works main {
+  visibility: hidden;
+  position: relative;
+  width: auto;
+  margin-top: 30px;
+}
+html#works main .image {
+  display: block;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+html#works main .image img {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  height: auto;
+}
+html#works main .image svg {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+html#detail body {
+  width: 100%;
+}
+html#detail #work-meta {
+  width: calc(100% - 30px * 2);
+  text-align: center;
+  margin-top: 42px;
+  margin-left: 30px;
+}
+html#detail #work-meta .work-client {
+  font-size: 14px;
+  line-height: 1em;
+}
+html#detail #work-meta .work-title {
+  font-size: 24px;
+  line-height: 1.1em;
+  margin-top: 8px;
+}
+html#detail #work-meta .work-year {
+  font-size: 12px;
+  line-height: 1em;
+  margin-top: 7px;
+}
+html#detail #close-work {
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  position: absolute;
+  z-index: 1;
+  top: 30px;
+  right: 30px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url("../img/close.svg") no-repeat;
+}
+html#detail main {
+  margin-top: 64px;
+}
+html#detail main #list .images .image {
+  display: block;
+  margin-bottom: 40px;
+  width: 100%;
+  height: 100%;
+}
+html#detail main #list .images .image img {
+  width: 100%;
+  height: 100%;
+}
+html#detail main #list .images .image:last-child {
+  margin-bottom: 0;
+}
+html#detail main #slideshow {
+  display: none;
+}
+html#about body {
+  width: 100%;
+}
+html#about main {
+  position: relative;
+  width: auto;
+  margin-top: 30px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.5em;
+  letter-spacing: 0.03em;
+}
+html#about main dt {
+  font-size: 20px;
+  line-height: 1.5em;
+}
+html#about main dd {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+html#about main a {
+  border-bottom: 1px solid #2f1dff;
+  display: inline-block;
+  height: 1.36em;
+}
+html#about main dd.description.en {
+  word-break: break-all;
+}
+html#about main dd.description.jp {
+  margin-top: 1em;
+}
+html#about main dd.clients {
+  word-break: break-all;
+}
+html#about main dd.clients .client:after {
+  content: " / ";
+}
+html#about main dd.clients .client:last-child:after {
+  content: "";
+}
+html#about main dd.clients .client a {
+  border: none;
+}
+html#about main dd.address .address-text {
+  margin-top: 1em;
+}
+html#about main #gmap {
+  width: 100%;
+  height: 210px;
+  background-color: #eee;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+html#about main dl {
+  margin-top: 3em;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+html#about main dt {
+  margin-top: 3em;
+  font-weight: bold;
+}
+html#about main dd.address .address-text {
+  display: block;
+  margin-left: 12px;
+  text-indent: -12px;
+}
+html#about main dd.address .address-text:before {
+  content: "- ";
+}
+html#about main dd.address .address-text:before.jp {
+  font-family: "Noto Sans JP", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3",
+    "Hiragino Kaku Gothic Pro", "ãƒ¡ã‚¤ãƒªã‚ª", Meiryo, Osaka,
+    "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "MS PGothic", sans-serif;
+}
+html#about main dd.mail-address::before {
+  content: "- ";
+}
+html#about main dd.sns::before {
+  content: "- ";
+}
+html#about main dd.member {
+  margin-left: 12px;
+  text-indent: -12px;
+}
+html#about main dd.member a {
+  display: inline;
+}
+html#about main dd.member span::before {
+  content: " / ";
+}
+html#about main dd.member span:first-child::before {
+  content: "- ";
+}
+html#about footer .site-title {
+  display: none;
+}
